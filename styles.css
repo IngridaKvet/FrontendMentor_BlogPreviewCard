@@ -18,8 +18,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #FFF;
-    width: 384px;
     border: 1px solid #121212;
+    width: 384px;
     border-radius: 20px;
     box-shadow: #121212 8px 8px;
     padding: 24px;
@@ -72,5 +72,11 @@ figure{
     gap: 12px;
     align-items: center;
     font-weight: 800;
-
 }
+
+@media (max-width: 375px){
+    .card{
+        width: 327px;
+    }
+}
+
